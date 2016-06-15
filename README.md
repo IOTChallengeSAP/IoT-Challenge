@@ -1,2 +1,2 @@
 # IoT-Challenge
-Demo scripts for the IoT Challenge 2016
+Additional material for the IoT Challenge 2016

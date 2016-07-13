@@ -1,10 +1,10 @@
 // Visit https://www.npmjs.com/package/twitter to get additional information
 var Twitter = require('twitter');
 var client = new Twitter({
-  consumer_key: 'zQqLSCGqakllgmy5JvEtArTOS',
-  consumer_secret: 'TXjdfCDZIRB7C2gPpOapjWgIdMIQkLHSgyQEygzXNS952opnLN',
-  access_token_key: '711954016314499072-TggLwUY0bL7Pqa2ea5u4Sfzj1CRH71M',
-  access_token_secret: 'nfWUF5jzfwSoriTdXMFMg5SobpzcfLDt0n4YGsY4SPF7d'
+  consumer_key: 'XXXX',
+  consumer_secret: 'XXXX',
+  access_token_key: 'XXXX',
+  access_token_secret: 'XXXXX'
 });
 /* client.get('favorites/list', function(error, tweets, response){
   if(error) throw error;

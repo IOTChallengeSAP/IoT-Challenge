@@ -20,9 +20,10 @@ def floatfromhex(h):
         t = -(float.fromhex('FFFF') - t)
         pass
     return t
+bluetooth_adr = sys.argv[1]
 print "Ensure the Sensortag is active and the green led is flashing every second."
 time.sleep(5)
-tool = pexpect.spawn('sudo gatttool -b ' + 'A0:E6:F8:C3:35:07' + ' --interactive')
+tool = pexpect.spawn('sudo gatttool -b ' + bluetooth_adr + ' --interactive')
 time.sleep(1)
 tool.expect('\[LE\]>')
 print "Preparing to connect..."
